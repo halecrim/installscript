@@ -1,1 +1,1 @@
-Start-Process 'cmd.exe' -ArgumentList  '/c "$Arg[0]" && exit'
+Start-Process 'cmd.exe' -ArgumentList  '/c $args[0] && exit'
